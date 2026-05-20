@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Allow real files/folders
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Service details URL
+#RewriteRule ^service-details/([^/]+)$ service-details.php?slug=$1 [L,QSA]
+#RewriteRule ^about/([^/]+)$ about.php?slug=$1 [L,QSA]
+#RewriteRule ^contact/([^/]+)$ contact.php?slug=$1 [L,QSA]
+#RewriteRule ^services/([^/]+)$ services.php?slug=$1 [L,QSA]

@@ -28,5 +28,4 @@ composer.lock
 robots.txt
 sitemap.xml
 Database.php
-.htaccess
 *-bkp.*
